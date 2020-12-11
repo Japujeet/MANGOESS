@@ -1,8 +1,8 @@
 class Tree{
     constructor(w,h){
         var options={
-            isStatic:true,
-            density:0
+            isStatic:true
+            
         }
         this.body = Bodies.rectangle(600,300,w,h,options);
         this.width=w;
